@@ -15,7 +15,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
-		textFileReader tf = new textFileReader("C:\\Users\\meckstss\\git\\meckstss_Assignment07\\meckstss_Assignment07\\src\\words.txt");
+		textFileReader tf = new textFileReader("src/words.txt");
 		tf.readTextFile();
 		System.out.println("Most common letter: " + tf.getStrMostCommonLetter() + " = " + tf.getIntMostCommonLetterCnt());
 		System.out.println("Least common letter: " + tf.getStrLeastCommonLetter() + " = " + tf.getIntLeastCommonLetterCnt());
